@@ -10,7 +10,8 @@
       "defaultConfiguration": "production",
       "options": {
         "root": "apps/backoffice",
-        "outputPath": "dist/apps/backoffice"
+        "outputPath": "dist/apps/backoffice",
+        "generatePackageJson": true
       },
       "configurations": {
         "development": {

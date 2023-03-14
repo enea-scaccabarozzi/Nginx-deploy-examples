@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  api:
+    build:
+      context: ./apps/api/
+      dockerfile: Dockerfile
+    expose:
+      - 3000
+
+  backoffice:
+    build:
+      context: ./apps/backoffice/
+      dockerfile: Dockerfile
+    expose:
+      - 8080
+    depends_on:
+      - api
+  nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - backoffice
+      - api
+

@@ -1,0 +1,14 @@
+# BUILDER CONTAINER
+##
+
+FROM node:18-alpine
+
+WORKDIR /monorepo
+
+# Copy lock files
+COPY ./yarn.lock ./package.json ./
+
+# Install Nx and Deps
+RUN yarn install && yarn cache clean
+
+COPY . .
