@@ -1,5 +1,7 @@
 # 🚀 Nginx Deploy Examples
 
+> This README is also available in [🇬🇧 english 🇬🇧](./README.md)
+
 - [🚀 Nginx Deploy Examples](#-nginx-deploy-examples)
   - [🧭 Design architettura](#-design-architettura)
   - [📦 Deployment](#-deployment)
@@ -8,7 +10,6 @@
     - [🔨 Testing notes](#-testing-notes)
   - [⚙️ Advanced deployment](#️-advanced-deployment)
   - [🖇️ CI/CD e DevOps](#️-cicd-e-devops)
-
 
 Questo repository contiene una piccola collezione di esempi pratici nei quali Nginx e' usato per rendere possibile un deployment efficace in un architettura basata su microservizi.
 

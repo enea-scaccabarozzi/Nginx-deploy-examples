@@ -1,5 +1,7 @@
 # 🚀 Nginx Deploy Examples
 
+> This README is also available in [🇮🇹 italiano 🇮🇹](./README_IT.md)
+
 - [🚀 Nginx Deploy Examples](#-nginx-deploy-examples)
   - [🧭 Architecture design](#-architecture-design)
   - [📦 Deployment](#-deployment)

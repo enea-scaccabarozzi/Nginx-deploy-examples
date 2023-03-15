@@ -1,5 +1,7 @@
 # 🔐 Https support
 
+> This README is also available in [🇮🇹 italiano 🇮🇹](./README_IT.md)
+
 It is possible to take advantage of [Certbot](https://certbot.eff.org/) and its integration with Nginx to obtain **free** certificates with which to force all the traffic of a service onto HTTPS, thus significantly improving the security of the product.
 
 To do this, simply edit `nginx.conf` and `docker-compose.yml` using the templates in this directory.

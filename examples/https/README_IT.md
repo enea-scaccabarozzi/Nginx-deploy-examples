@@ -1,5 +1,7 @@
 # 🔐 Supporto https
 
+> This README is also available in [🇬🇧 english 🇬🇧](./README.md)
+
 E' possibile sfruttare [Certbot](https://certbot.eff.org/) e la sua integrazione con Nginx per ottenere certificati **gratuiti** con i quali forzare tutto il traffico di un servizio su HTTPS, migliorando cosi' sensibilmente la sicurezza del prodotto.
 
 Per farlo bastera' modificare `nginx.conf` e `docker-compose.yml` utilizzando i template presenti in questa directory.

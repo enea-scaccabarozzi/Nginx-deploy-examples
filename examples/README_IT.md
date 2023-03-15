@@ -1,5 +1,7 @@
 # ⚙️ Configurazioni avanzate
 
+> This README is also available in [🇬🇧 english 🇬🇧](./README.md)
+
 Ognuna di queste directory contiene i file necessari per implementare una delle seguenti feature
 
 - 🔐 Https (**gratuito**) su alcuni o tutti i microservizi
