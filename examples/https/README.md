@@ -8,7 +8,7 @@ Once you have done this, you can run `init-letsencrypt.sh` to initialise the con
 
 > ⚠️⚠️ **WARNING** ⚠️⚠️ modify `init-letsencrypt.sh` to suit your needs.
 
-``bash
+```bash
  ./init-letsencrypt.sh
 ```
 
