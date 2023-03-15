@@ -27,5 +27,5 @@ RUN yarn install --production && yarn cache clean
 COPY --from=builder /monorepo/dist/apps/backoffice/ .
 
 
-ENTRYPOINT [ "yarn", "run", "next", "start", "-p", "8080" ]
+ENTRYPOINT yarn run next start -p ${BO_PORT}
 
