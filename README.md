@@ -1,5 +1,14 @@
 # 🚀 Nginx Deploy Examples
 
+- [🚀 Nginx Deploy Examples](#-nginx-deploy-examples)
+  - [🧭 Architecture design](#-architecture-design)
+  - [📦 Deployment](#-deployment)
+    - [🌙 Remote host](#-remote-host)
+    - [🗒️ Nx notes](#️-nx-notes)
+    - [🔨 Testing notes](#-testing-notes)
+  - [⚙️ Advanced deployment](#️-advanced-deployment)
+  - [🖇️ CI/CD and DevOps](#️-cicd-and-devops)
+
 This repository contains a small collection of practical examples in which Nginx is used to enable effective deployment in a microservices-based architecture.
 
 ## 🧭 Architecture design
