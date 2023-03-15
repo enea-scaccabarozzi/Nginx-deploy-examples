@@ -16,7 +16,7 @@ Questi 3 microservizi sono connessi ed eventualmente esposti attraverso un gatew
 
 Per eseguire un deployment ottimizzato di questa architettura si eseguano questi comandi:
 
-> ATTENZIONE Modificare correttamente e secondo le proprie esigenze le voci indicate in `nginx.conf` prima di cominciare l'operazione
+> ⚠️⚠️ **ATTENZIONE** ⚠️⚠️ Modificare correttamente e secondo le proprie esigenze le voci indicate in `nginx.conf` prima di cominciare l'operazione
 
 ```bash
 # Clone this repo
@@ -82,7 +82,7 @@ In questo repository sono presenti altri 3 esempi di deployment piu' strutturati
 
 Ognuna di queste feature sara' raggiungibile attraverso opportune modifiche sulla configurazione di Ngix.
 
-> Per maggiori informazioni si faccia riferimento alla cartella `examples/` e al relativo [README](./examples/README.md)
+> Per maggiori informazioni si faccia riferimento alla cartella `examples/` e al relativo [README](examples/README_IT.md)
 
 ## 🖇️ CI/CD e DevOps
 

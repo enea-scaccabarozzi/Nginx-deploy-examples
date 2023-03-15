@@ -16,7 +16,7 @@ These 3 microservices are connected and eventually exposed via a main gateway, r
 
 To perform an optimised deployment of this architecture, execute these commands:
 
-> CAUTION Edit the entries in `nginx.conf` correctly and according to your needs before starting the operation
+> ⚠️⚠️ **WARNING** ⚠️⚠️ Edit the entries in `nginx.conf` correctly and according to your needs before starting the operation
 
 ```bash
 # Clone this repo
