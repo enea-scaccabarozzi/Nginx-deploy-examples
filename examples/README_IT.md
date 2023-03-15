@@ -8,4 +8,4 @@ Ognuna di queste directory contiene i file necessari per implementare una delle 
 - 🧺 Proxy caching
 - 📊 Rate limiting
 
-Ognuna di esse sara' attivabile seguendo le istruzioni presenti nel README.md relativo.
+Ognuna di esse sarà attivabile seguendo le istruzioni presenti nel README.md relativo.
