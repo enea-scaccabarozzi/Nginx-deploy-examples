@@ -1,0 +1,26 @@
+image: docker/compose
+
+clone:
+  depth: full
+
+definitions:
+  steps:
+    - step: &buildBase
+        name: Build base image
+        caches:
+          - docker
+        script:
+          - docker build -t monorepo-base-image -f Dockerfile.base .
+
+    - step: &deploy
+        name: Deploy on remote host
+        caches:
+          - docker
+        script:
+          - docker-compose -H $SSH_REMOTE_URL up --build -d
+
+pipelines:
+  branches:
+    develop:
+      - step: *buildBase
+      - step: *deploy
