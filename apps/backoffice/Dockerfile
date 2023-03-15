@@ -26,6 +26,8 @@ RUN yarn install --production && yarn cache clean
 # Copy backoffice dist
 COPY --from=builder /monorepo/dist/apps/backoffice/ .
 
+# Expose externally port defined in .env,prod
+EXPOSE $BO_PORT
 
 ENTRYPOINT yarn run next start -p ${BO_PORT}
 

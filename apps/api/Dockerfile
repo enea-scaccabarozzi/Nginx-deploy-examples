@@ -26,6 +26,7 @@ RUN yarn install --production && yarn cache clean
 # Copy api dist
 COPY --from=builder /monorepo/dist/apps/api/ .
 
-EXPOSE 3000
+# Expose externally port defined in .env,prod
+EXPOSE $API_PORT
 
 ENTRYPOINT [ "node", "main.js" ]
