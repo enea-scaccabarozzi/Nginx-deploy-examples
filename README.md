@@ -17,9 +17,9 @@ This repository contains a small collection of practical examples in which Nginx
 
 In order to facilitate the demonstration of the advantages of a deployment solution similar to this one, the project has been divided into three almost autonomous microservices, which from now on will be identified as follows
 
-- 🛣️ **Api:** REST api based on [NestJS](https://nestjs.com/). *A standalone Docker container is dedicated for its deployment.
-- 🔒 **Backoffice:** SPA based on [NextJS](https://nextjs.org/). *An autonomous Docker container (SSR) is dedicated for its deployment.
-- 🌐 **Client:** SPA based on [ReactJS](https://reactjs.org/). *Deployment is by means of a static bundle served via Nginx.
+- 🛣️ **Api:** REST api based on [NestJS](https://nestjs.com/). *A standalone Docker container is dedicated for its deployment.*
+- 🔒 **Backoffice:** SPA based on [NextJS](https://nextjs.org/). *An autonomous Docker container (SSR) is dedicated for its deployment.*
+- 🌐 **Client:** SPA based on [ReactJS](https://reactjs.org/). *Deployment is by means of a static bundle served via Nginx.*
 
 These 3 microservices are connected and eventually exposed via a main gateway, represented by an additional Docker container in which Nginx is running.
 
